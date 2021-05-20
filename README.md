@@ -10,6 +10,18 @@ _______________________________________________________________
   
 * Info on license: https://opensource.org/licenses/MIT
 _______________________________________________________________
+
+### Demo:
+* Screenshot of deployed site on Github Pages
+
+_______________________________________________________________
+
+<img src='assets/mainOverview.JPG' alt="WeatherDashboard>
+
+* Main Menu
+
+_______________________________________________________________
+
 ### Installation Instructions:
 * Simply clone the repo and run locally.
 
@@ -36,6 +48,7 @@ _______________________________________________________________
 _______________________________________________________________
 * [Description](#description)
 * [License](#license-)
+* [Demo](#demo)
 * [Installation](#installation-instructions)
 * [Main Language](#main-language-)
 * [Contribution Policy](#contribution-policy)
