@@ -48,7 +48,10 @@ searchButton.click(function () {
     } else {
         $.ajax({
             url: urlCurrent,
-            method: "GET"
+            method: "GET",
+            error: function(badCall){
+                alert("Please enter a valid city")
+            }
             
         }).then(function (response) {
 
@@ -138,7 +141,9 @@ var displayWeather = function(){
    
         $.ajax({
             url: urlCurrent,
-            method: "GET"
+            method: "GET",
+            error: function(badCall){
+                alert("Please select a valid city")}
         }).then(function (response) {
             
             // list-group append an li to it with just set text

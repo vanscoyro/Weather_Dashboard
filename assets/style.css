@@ -1,1 +1,74 @@
-/* initial commit  */
+
+body{
+    background: rgb(4,118,192);
+    background: linear-gradient(90deg, rgba(4,118,192,1) 0%, rgba(6,59,168,1) 100%);
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.card-title {
+    font-size: 20px;
+}
+
+
+
+.fiveDayColor {
+    padding: 20px;
+    background-color: #1E90FF;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
+
+.fiveDayCard{
+    background: #063ba8;
+    border: none;
+}
+
+
+.banner{
+    background: rgb(6,59,168);
+    background: linear-gradient(90deg, rgba(4,118,192,1) 0%, rgba(6,59,168,1) 100%);
+    border: none;
+}
+
+.currentCard{
+   
+    width: 50%;
+    background: #063ba8;
+    border: none;
+    padding-right: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.card-text{
+    color: white;
+}
+
+.card-body{
+    vertical-align: center;
+    background: #063ba8;
+    border: none;
+    
+    
+}
+
+.card-search{
+    vertical-align: center;
+}
+
+
+.data-city{
+    background: #1E90FF;
+}
+
